@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto&family=Space+Mono&display=swap');
+
+:root{
+	--azul-main:#2F368D;
+	--azul-dark:#1A1166;
+	--azul-darker:#0F0A3D;
+	--azul-hover:#36D6EB;
+	--morado-main:#532E8F;
+	--morado-dark:#371161;
+	--morado-hover:#BA6EE0;
+}
+body{
+	font-family: 'lato';
+	background-color: var(--azul-darker);
+	color: white;
+}
+
+body .main{
+	color: var(--azul-hover);
+	background-color: var(--azul-main);
+	text-align: center;
+	padding: 10px;
+	border: white;
+	border-radius: 30px 0px 30px 0px;
+}
+
+
+body #second{
+	color: var(--morado-hover);
+	background-color: var(--morado-main);
+	text-align: center;
+	padding: 10px;
+	border: white;
+	border-radius: 30px 0px 30px 0px
+}
+
+
+#perfil .texto{
+	background-color: var(--azul-dark);
+	padding: 15px;
+	text-align: justify;
+}
+
+#servicios h4{
+	margin-top: 20px;
+	font-size: 28px;
+}
+#servicios{
+	text-align: center;
+}
+
+
+#carouselExample .carousel-item{
+	width: 100%;
+	height: 730px;
+}
+#portafolio .carousel-caption h2{
+	font-size: 60px;
+	font-weight: bolder;
+}
+.carousel-control-next{
+	background-color: rgba(188,185,215,0.50);
+}.carousel-control-prev{
+	background-color: rgba(188,185,215,0.50);
+}
+
+.overlay{
+	position: absolute;
+	top:0;
+	width: 100%;
+	height: 100%;
+	background-color:rgba(46,63,165,0.0)
+}
+
+.overlay:hover{
+	position: absolute;
+	top:0;
+	width: 100%;
+	height: 100%;
+	background-color:rgba(85,168,215,0.42)
+}
+
+#portafolio .vid{
+	padding: 30px;
+	background-color: var(--azul-dark);
+}
+
+#portafolio .art-dig{
+	padding: 20px;
+}
+#portafolio .art-1{
+	border-radius:30px 0px 30px 0px;
+}
+
+#portafolio .art-2{
+	border-radius:0px 30px 0px 30px;
+}
+
+#contacto i.las{
+	font-size: 30px;
+	color: var(--azul-hover);
+}
+#contacto i.lab{
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	background-color: var(--azul-main);
+	border-radius: 30px 0px 30px 0px;
+	padding: 10px;
+}
+#contacto i.lab:hover{
+	color: var(--azul-hover);
+}
+
+#contacto .icons-contact{
+	text-align: center;
+}
+
+#contacto input{
+	background-color: var(--azul-main);
+}
+#contacto ::placeholder{
+	color: white;
+}
+#contacto input.big{
+	height: 200px;
+}
+
+footer{
+	background-color: var(--azul-main);
+	padding: 20px;
+	margin-top: 30px;
+}
+
+
